@@ -41,6 +41,26 @@ header {
 header div {
     text-align: center;}
 
+.titulos a:hover {
+    color: orange;
+    font-size: 25px;
+}
+
+#imagenvuelta {
+    animation-name: mianimacion;
+    animation-duration: 2s;
+    position: relative;
+    animation-delay: 2s;
+}
+
+@keyframes mianimacion {
+    0% {left: 0px; top:0px}
+    25% {left: -400px; top: 300px;}
+    50% {left: 0px; top:600px}
+    75% {left: 400px; top:300px}
+    100% {left: 0px; top:0px}
+}
+
 main {
     grid-area: main;
 }
