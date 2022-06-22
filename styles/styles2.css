@@ -1,0 +1,91 @@
+.informacion {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoportada {
+  height: 140px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+body {
+  background-image: url("../assets/images/fondopagina.jpg");
+  color: whitesmoke;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  text-align: center;
+  height: 100vh;
+}
+
+#navbarNav {
+  justify-content: flex-end;
+  display: flex;
+  margin-right: 20px;
+  font-size: 26px;
+}
+
+.navbar-nav li a {
+  margin: 15px;
+  color: whitesmoke;
+}
+
+.tituloarticulo {
+  font-size: 25px;
+}
+
+.navbar {
+  border-bottom: yellow solid;
+  background-color: black !important;
+}
+
+.informacion div {
+  margin: 20px;
+}
+
+.footer {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todoelfooter {
+  height: 80px;
+  background-color: black;
+  border: 3px solid gold;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 100px;
+}
+
+.footer i {
+  color: palevioletred;
+  height: 30px;
+}
+
+.form {
+  border: yellow 2px solid;
+  border-radius: 20px;
+  margin-top: 35px;
+  text-align: left;
+  padding: 40px;
+}
+
+.form div {
+  padding: 10px;
+}
+
+.form-groupright {
+  margin-left: 60px;
+}
+
+/*# sourceMappingURL=styles2.css.map */
