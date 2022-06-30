@@ -24,9 +24,8 @@ body {
 }
 
 #navbarNav {
-  justify-content: flex-end;
+  justify-content: left;
   display: flex;
-  margin-right: 20px;
   font-size: 26px;
 }
 
