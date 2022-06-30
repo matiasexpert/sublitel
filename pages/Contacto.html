@@ -1,114 +1,139 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SUBLITEL| Contacto</title>
-    <link rel="shortcut icon" href="../assets/images/logo.jpg">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">   
-    <script src="https://kit.fontawesome.com/c16f6ea092.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../styles/styles2.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-</head>
-<body>
-
-
+    <link rel="shortcut icon" href="../assets/images/logo.jpg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/c16f6ea092.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../styles/styles2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img src="../assets/images/logo.jpg" alt="logo" class="logoportada" id="imagenvuelta">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="../Index.html">Home </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/Pedido.html">Pedidos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/Trabajos.html">Trabajos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../pages/Quienessomos.html">Quienes Somos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../pages/Contacto.html">Contacto</a>
-              </li>
-
-          </ul>
-        </div>
-      </nav>
+      <img
+        src="../assets/images/logo.jpg"
+        alt="logo"
+        class="logoportada"
+        id="imagenvuelta"
+      />
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="../Index.html">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/Pedido.html">Pedidos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/Trabajos.html">Trabajos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/Quienessomos.html"
+              >Quienes Somos</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/Contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <div class="container">
+      <article class="letrablanca">
+        <form class="form" method="GET" enctype="multipart/form-data">
+          <fieldset class="mb-3">
+            <legend>Deja tus datos</legend>
 
-
-        <article class="letrablanca">
-
-            <form class="form"  method="GET" enctype="multipart/form-data">
-
-
-                <fieldset class="mb-3">
-
-
-                    <legend> Deja tus datos </legend> 
-                    
-                    <div class="form-group">
-                    <label for="nombre" class="form-label">Nombre: </label>
-                    <input name="nombre" class="form-control" type="text" placeholder="Juan"> 
-                </div>
-                <div class="form-group">         
-                    <label for="apellido" class="form-label">Apellido:</label>
-                    <input name="apellido" class="form-control" type="text" placeholder="Perez">
-                </div>
-                <div class="form-group">         
-                    <label for="email" class="form-label">Email</label>
-                    <input name="mail " class="form-control" type="text" placeholder="juanparez@gmail.com"> 
-                </div>
-                <div class="form-group">         
-                    <label for="telefono" class="form-label">Telefono:</label>
-                    <input name="telefono" class="form-control" type="text">
-                </div>
-                <div class="form-groupright">         
-
-                    <span>Fijo</span>
-                    <input name="tipotelefono" type="radio" value="Fijo">
-                    <span>Celular</span>
-                    <input name="tipotelefono" type="radio" value="Celular">
-                </div>          
-
-                </fieldset>
-
-
-            </form>
-
-        </article>
-
+            <div class="form-group">
+              <label for="nombre" class="form-label">Nombre: </label>
+              <input
+                name="nombre"
+                class="form-control"
+                type="text"
+                placeholder="Juan"
+              />
+            </div>
+            <div class="form-group">
+              <label for="apellido" class="form-label">Apellido:</label>
+              <input
+                name="apellido"
+                class="form-control"
+                type="text"
+                placeholder="Perez"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input
+                name="mail "
+                class="form-control"
+                type="text"
+                placeholder="juanparez@gmail.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="telefono" class="form-label">Telefono:</label>
+              <input name="telefono" class="form-control" type="text" />
+            </div>
+            <div class="form-groupright">
+              <span>Fijo</span>
+              <input name="tipotelefono" type="radio" value="Fijo" />
+              <span>Celular</span>
+              <input name="tipotelefono" type="radio" value="Celular" />
+            </div>
+          </fieldset>
+        </form>
+      </article>
     </div>
 
-
     <footer class="todoelfooter">
-        <div class="container">
-
-            <div class="row footer">
-                <div class="col" id="mail">
-                    <i class="fa-solid fa-envelope"></i>
-                    <label for="mail" class="footer_etiqueta">INFO@SUBLITEL.COM</label>
-                </div>
-                <div class="col" id="instagram">
-                    <a href="https://www.instagram.com/sublitelargentina/?hl=es"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-                <div class="col" id="tel">
-                    <i class="fa-solid fa-phone"></i>
-                    <label for="telefono" class="footer_etiqueta">TEL  11 7504 6478</label>
-                </div>
-            </div>       
+      <div class="container">
+        <div class="row footer">
+          <div class="col" id="mail">
+            <i class="fa-solid fa-envelope"></i>
+            <label for="mail" class="footer_etiqueta">INFO@SUBLITEL.COM</label>
+          </div>
+          <div class="col" id="instagram">
+            <a href="https://www.instagram.com/sublitelargentina/?hl=es"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+          <div class="col" id="tel">
+            <i class="fa-solid fa-phone"></i>
+            <label for="telefono" class="footer_etiqueta"
+              >TEL 11 7504 6478</label
+            >
+          </div>
         </div>
-      </footer>
-
-    
-</body>
+      </div>
+    </footer>
+  </body>
 </html>
