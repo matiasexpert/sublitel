@@ -5,8 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QUIENES SOMOS</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://kit.fontawesome.com/c16f6ea092.js"
+    crossorigin="anonymous"
+  ></script>
     <link rel="shortcut icon" href="../assets/images/logo.jpg" />
-    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/css/styles2.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,25 +25,51 @@
     />
   </head>
   <body>
-    <header class="navfondo">
-      <div class="divlogo">
-        <img src="../assets/images/logo.jpg" alt="logo" class="logoportada" />
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="navbarNav">
+
+      <img
+        src="../assets/images/logo.jpg"
+        alt="logo"
+        class="logoportada"
+        id="imagenvuelta"
+      />
+
+      <button
+        class="navbar-toggler hamburguesa"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="true"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="../Index.html">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/Pedido.html">Pedidos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/Trabajos.html">Trabajos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/Quienessomos.html"
+              >Quienes Somos</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/Contacto.html">Contacto</a>
+          </li>
+
+        </ul>
       </div>
 
-      <nav class="navegadormenu">
-        <ul>
-          <li><a href="./Pedido.html">PEDIDOS</a></li>
-
-          <li><a href="./Trabajos.html">TRABAJOS</a></li>
-
-          <li><a href="./Contacto.html">CONTACTO</a></li>
-
-          <li><a href="./Quienessomos.html">QUIENES SOMOS</a></li>
-
-          <li><a href="../Index.html">HOME</a></li>
-        </ul>
-        <br /><br />
-      </nav>
+  </nav>
 
       <h1 class="titulodepagina">VENI A VISITARNOS</h1>
     </header>
@@ -57,32 +93,32 @@
       </article>
     </section>
 
-    <footer class="navfondofooter">
-      <div class="divfooter">
-        <div class="footercontact" id="mail">
-          <img
-            src="../assets/images/maillogo.png"
-            height="30px"
-            alt="maillogo"
-          />
-          <label for="mail" class="footer_etiqueta">INFO@SUBLITEL.COM</label>
-        </div>
-        <br />
-        <br />
-
-        <div class="footercontact" id="instagram">
-          <a href="https://www.instagram.com/sublitelargentina/?hl=es"
-            ><img src="../assets/images/instagramlogo.png" height="60px"
-          /></a>
-        </div>
-        <br />
-        <br />
-
-        <div class="footercontact" id="tel">
-          <img src="../assets/images/phonelogo.png" height="30px" />
-          <label for="telefono" class="footer_etiqueta">TEL 11 7504 6478</label>
+    <footer class="todoelfooter">
+      <div class="container">
+        <div class="row footer">
+          <div class="col" id="mail">
+            <i class="fa-solid fa-envelope"></i>
+            <label for="mail" class="footer_etiqueta">INFO@SUBLITEL.COM</label>
+          </div>
+          <div class="col" id="instagram">
+            <a href="https://www.instagram.com/sublitelargentina/?hl=es"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+          <div class="col" id="tel">
+            <i class="fa-solid fa-phone"></i>
+            <label for="telefono" class="footer_etiqueta"
+              >TEL 11 7504 6478</label
+            >
+          </div>
         </div>
       </div>
     </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

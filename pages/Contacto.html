@@ -16,7 +16,7 @@
       src="https://kit.fontawesome.com/c16f6ea092.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="../styles/styles2.css" />
+    <link rel="stylesheet" href="../styles/css/styles2.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,26 +25,31 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="navbarNav">
       <img
         src="../assets/images/logo.jpg"
         alt="logo"
         class="logoportada"
         id="imagenvuelta"
       />
+
       <button
-        class="navbar-toggler"
+        class="navbar-toggler hamburguesa"
         type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
         aria-controls="navbarNav"
-        aria-expanded="false"
+        aria-expanded="true"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+
+      <div
+        class="collapse navbar-collapse"
+        id="navbarNav navbarSupportedContent"
+      >
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item active">
             <a class="nav-link" href="../Index.html">Home </a>
           </li>
