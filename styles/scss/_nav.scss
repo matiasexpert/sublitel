@@ -1,0 +1,27 @@
+
+.logoportada {
+    height: 140px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.navbar {
+    border-bottom: $border;
+    background-color: $fondo;
+}
+
+.navbar-nav {
+    li {
+        a {
+            margin: 20px;
+            color: $color-principal;
+            font-size: 20px;
+        }
+    }
+}
+
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}

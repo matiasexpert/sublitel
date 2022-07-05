@@ -1,0 +1,27 @@
+
+
+.footer {
+    background-color: $fondo ;
+    color: $color-principal;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoelfooter {
+    height: 80px;
+    background-color: $fondo;
+    border: $border;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 100px
+}
+
+.footer {
+    i {
+        color: palevioletred;
+        height: 30px
+    }
+}
