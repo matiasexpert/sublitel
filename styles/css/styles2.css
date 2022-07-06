@@ -1,32 +1,29 @@
-.logoportada {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  border-bottom: 3px solid gold;
+  background-color: rgb(0, 0, 0);
+}
+.navbar .logoportada {
   height: 140px;
   margin-left: 20px;
   margin-top: 10px;
 }
 
-.navbar {
-  border-bottom: 3px solid gold;
-  background-color: black;
-}
-
 .navbar-nav li a {
   margin: 20px;
   color: whitesmoke;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .collapse {
   display: flex;
   justify-content: flex-end;
   text-align: right;
-}
-
-.informacion {
-  margin-top: 80px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 body {
@@ -39,8 +36,14 @@ body {
   text-align: center;
   height: 100vh;
 }
-
-.tituloarticulo {
+body .informacion {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .tituloarticulo {
   font-size: 25px;
 }
 
@@ -55,7 +58,6 @@ body {
   text-align: left;
   padding: 40px;
 }
-
 .form div {
   padding: 10px;
 }
@@ -69,7 +71,7 @@ body {
 }
 
 .footer {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: whitesmoke;
   font-size: 20px;
   display: flex;
@@ -79,7 +81,7 @@ body {
 
 .todoelfooter {
   height: 80px;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   border: 3px solid gold;
   display: flex;
   align-items: center;

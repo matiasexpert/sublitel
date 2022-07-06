@@ -7,6 +7,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    
 }
 
 .todoelfooter {
@@ -17,11 +19,14 @@
     align-items: center;
     position: relative;
     top: 100px
+
+
+    
 }
 
 .footer {
     i {
-        color: palevioletred;
+        color: $color-secundario;
         height: 30px
     }
 }

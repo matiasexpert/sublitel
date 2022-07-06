@@ -1,14 +1,4 @@
 
-.informacion {
-    margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
 body {
     background-image: url("../../assets/images/fondopagina.webp");
     color: $color-principal;
@@ -18,13 +8,19 @@ body {
     background-size: cover;
     text-align: center;
     height: 100vh;
-}
 
-
-
-
-.tituloarticulo {
-    font-size: 25px;
+    
+        .informacion {
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+                
+            .tituloarticulo {
+                font-size: 25px;
+            }
 }
 
 
@@ -35,21 +31,18 @@ body {
 }
 
 
-
 .form {
     border: yellow 2px solid;
     border-radius: 20px;
     margin-top: 35px;
     text-align: left;
     padding: 40px;
-}
 
-.form {
     div {
         padding: 10px;
     }
-}
 
+}
 .form-groupright {
     margin-left: 60px;
 }
